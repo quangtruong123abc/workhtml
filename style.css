@@ -1,0 +1,42 @@
+.work {
+  width: 699px;
+  display: inline-block;
+}
+
+.small_left {
+  width: 347px;
+  float: left;
+}
+.title {
+  font-size: 20px;
+  color: black;
+}
+.content {
+  display: inline-block;
+  width: 100%;
+}
+.content .item_left {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.content .item_right {
+  font-size: 20px;
+  display: inline-block;
+  overflow: hidden;
+}
+.content .item_right span {
+  font-size: 10px;
+  color: black;
+}
+.content .list_item {
+  background-color: rgb(103, 240, 103);
+}
+.content .list_item strong {
+  background-color: green;
+}
+.small_right {
+  width: 347px;
+  float: right;
+}
